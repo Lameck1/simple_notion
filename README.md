@@ -3,6 +3,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+* [Features](#features)
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
 * [Contributing](#contributing)
@@ -15,7 +16,7 @@ Mini.Notion is a simple, lightweight clone of a Notion-like editor. Default edit
 
 ![screenshot](./src/assets/screenshot.png)
 
-## [Live Demo](live.demo)
+## [Live Demo](https://simplenotion.netlify.app/)
 
 ## Built With
 
