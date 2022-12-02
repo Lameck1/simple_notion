@@ -18,6 +18,13 @@ Mini.Notion is a simple, lightweight clone of a Notion-like editor. Default edit
 
 ## [Live Demo](https://simplenotion.netlify.app/)
 
+## Features
+
+1. Add a new block(editable paragraph)
+2. Convert a block to a heading
+3. Delete a block
+4. Arrow keys(Up/Down) navigation
+
 ## Built With
 
 * HTML5
