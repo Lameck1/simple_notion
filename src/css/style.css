@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+main,
+header {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 0.25rem 0;
+  padding: 0.5rem;
+  background: #fafafa;
+  border-radius: 0.25rem;
+  text-align: start;
+}
+
+.content:hover {
+  background: #f8f8f8;
+  outline-color: #f5f6fb;
+}
+
+.content:focus {
+  background: #f5f6fb;
+}
+
+#page {
+  max-width: 100%;
+  padding: 0.5rem;
+  background: #fafafa;
+  border-radius: 0.25rem;
+}
+
+.select-menu {
+  position: absolute;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 5rem;
+  border-radius: 2%;
+  border: 1px solid #e1e4e8;
+  width: 18rem;
+  z-index: 11;
+  box-shadow: 0 3px 12px rgba(27, 31, 35, 0.15);
+}
+
+.select-menu > * {
+  padding: 0.5rem;
+}
+
+.select-menu > button {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  background: #fff;
+  text-align: start;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.select-menu > button:hover {
+  background: #f8f8f8;
+  outline-color: #f5f6fb;
+}
+
+.select-menu > button:focus {
+  background: #f5f6fb;
+}
+
+.select-menu-header, .instructions {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.instructions {
+  color: #747272;
+}
+
+.icon {
+  font-family: 'Roboto Slab', serif;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.filter-keyword {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.keyword-span {
+  font-size: 0.9rem;
+  background-color: #0c5197;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  margin-left: 0.2rem;
+}
+
+@media screen and (min-width: 992px) {
+  main,
+  header {
+    max-width: 60%;
+  }
+  
+}
